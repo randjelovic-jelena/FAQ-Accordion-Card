@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FAQ Accordion Card">
+  <meta name="author" content="Jelena Randjelovic">
+  <meta name="keywords" content="FAQ Accordion Card, accordian,faq, frontend mentor, card">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <!--Logo-->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!--Css-->
+ <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+  <main class="main">
+    <div class="inner-main">
+      <!--IMAGE BOX-->
+      <div class="image-box">
+        <picture class="img illustration-img">
+          <source media="(min-width:650px)" srcset="images/illustration-woman-online-desktop.svg">
+          <source media="(max-width:465px)" srcset="images/illustration-woman-online-mobile.svg">
+          <img src="images/illustration-woman-online-desktop.svg" alt="illustration of illustration-woman-online-desktop"/>
+        </picture>
+        <img src="images/illustration-box-desktop.svg" alt="illustration of box" class="image-box-box"/>
+      </div>
+      <!--ACCORDIAN BOX-->
+      <div class="accordian-box">
+        <h1 class="accordian-title">faq</h1>
+        <div class="accordian-container">
+          <!--accordian item-->
+          <div class="accordian-item">
+            <header class="accordian-header">
+              <p class="accordian-item-title"> How many team members can I invite?</p>
+              <img src="images/icon-arrow-down.svg" class="arrow arrow-down" alt="icon of arrow pointing down"/>
+            </header>
+            <div class="accordian-main">
+              <p class="accordian-text">
+                You can invite up to 2 additional users on the Free plan. There is no limit on 
+                team members for the Premium plan.
+              </p>
+            </div>
+          </div>
+          <div class="accordian-item">
+            <header class="accordian-header">
+              <p class="accordian-item-title"> What is the maximum file upload size?</p>
+              <img src="images/icon-arrow-down.svg" class="arrow arrow-down" alt="icon of arrow pointing down"/>
+            </header>
+            <div class="accordian-main">
+              <p class="accordian-text">
+                No more than 2GB. All files in your account must fit your allotted storage space.
+              </p>
+            </div>
+          </div>
+          <div class="accordian-item">
+            <header class="accordian-header">
+              <p class="accordian-item-title">  How do I reset my password?</p>
+              <img src="images/icon-arrow-down.svg" class="arrow arrow-down" alt="icon of arrow pointing down"/>
+            </header>
+            <div class="accordian-main">
+              <p class="accordian-text">
+                Click"Forgot password" from the login page or"Change password" from your profile page.
+                A reset link will be emailed to you.
+              </p>
+            </div>
+          </div>
+          <div class="accordian-item">
+            <header class="accordian-header">
+              <p class="accordian-item-title"> Can I cancel my subscription?</p>
+              <img src="images/icon-arrow-down.svg" class="arrow arrow-down" alt="icon of arrow pointing down"/>
+            </header>
+            <div class="accordian-main">
+              <p class="accordian-text">
+                Yes! Send us a message and we'll process your request no questions asked.
+              </p>
+            </div>
+          </div>
+          <div class="accordian-item">
+            <header class="accordian-header">
+              <p class="accordian-item-title">  Do you provide additional support?</p>
+              <img src="images/icon-arrow-down.svg" class="arrow arrow-down" alt="icon of arrow pointing down"/>
+            </header>
+            <div class="accordian-main">
+              <p class="accordian-text">
+                Chat and email support is available 24/7. Phone lines are open during normal business hours.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--MAIL BOX-->
+    <div class="mail-box">
+      <img src="images/illustration-box-desktop.svg" alt="illustration of box"/>
+    </div><!--mail box end-->
+  </main>
+
+  <!--JavaScript-->
+  <script src="js/main.js"></script>
+</body>
+</html>
